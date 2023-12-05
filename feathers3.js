@@ -20,7 +20,7 @@ let ypos;
 let spotlight;
 
 function setup(){
-	c = createCanvas(700, 1400);
+	c = createCanvas(700, 700);
 
 	// colorMode(HSB);
 
