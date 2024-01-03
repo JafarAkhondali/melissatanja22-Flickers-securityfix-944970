@@ -89,7 +89,7 @@ function draw(){
 
 		}
 
-		// console.log(mouseX, mouseY);
+		console.log(mouseX);
 
 }
 
