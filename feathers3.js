@@ -89,8 +89,6 @@ function draw(){
 
 		}
 
-		console.log(mouseX);
-
 }
 
 class Form {
@@ -214,7 +212,10 @@ class Form {
 				vertex(other.bx, other.by);
 			endShape(CLOSE);
 
+			console.log(mxc, myc);
+
 	}
+	
 	
 
 }
