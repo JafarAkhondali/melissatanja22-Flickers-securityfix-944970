@@ -44,29 +44,6 @@ function setup(){
 
 function draw(){
 
-	// console.log(mx);
-
-	// mx = map(mouseX, 0, 1000, 0, 255);
-	// my = map(mouseY, 0, 1000, 0, 255);
-
-	// fill(mx, mx, mx);
-	// ellipse(mx, my, 100, 100);
-
-	// push();
-	// fill(0, 0, 0, 10);
-	// rect(0, 0, width, height);
-	// pop();
-
-		// stroke(0, 100, 0);
-		// line(width/2, height/2, mouseX, mouseY);
-
-		// console.log(mouseX, mouseY);
-	// spotlight.background(255);
-	// spotlight.noStroke();
-	// spotlight.fill(255, 255, 255, 1);
-	// spotlight.filter(BLUR, 5);
-	// spotlight.ellipse(mouseX, mouseY, 150, 150);
-
 	for(let i = 0; i < 75; i++){
 
 		// mx = map(mouseX, 0, 1000, 0, 345);
@@ -95,7 +72,7 @@ function draw(){
 			// 	// if(n.y < mouseY +10 || n.y > mouseY - 10){
 
 			// 		n.repel();
-			// 		console.log(mouseX);
+					console.log(mouseX, mouseY);
 
 			// 	// }
 
