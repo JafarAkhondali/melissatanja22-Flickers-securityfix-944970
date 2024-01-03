@@ -72,7 +72,6 @@ function draw(){
 			// 	// if(n.y < mouseY +10 || n.y > mouseY - 10){
 
 			// 		n.repel();
-					console.log(mouseX, mouseY);
 
 			// 	// }
 
@@ -89,6 +88,8 @@ function draw(){
 			}
 
 		}
+
+		console.log(mouseX, mouseY);
 
 }
 
@@ -214,6 +215,7 @@ class Form {
 			endShape(CLOSE);
 
 	}
+	
 
 }
 
