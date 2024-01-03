@@ -56,8 +56,8 @@ function draw(){
 
 		for(n of form){
 
-			mxc = map(mouseX, 0, 1000, 0, 255);
-			myc = map(mouseY, 0, 1000, 0, 255);
+			mxc = map(mouseX, -500, 1000, 0, 255);
+			myc = map(mouseY, -500, 1000, 0, 255);
 
 			// xpos = mouseX;
 			// ypos = mouseY;
@@ -89,7 +89,7 @@ function draw(){
 
 		}
 
-		console.log(mouseX, mouseY);
+		// console.log(mouseX, mouseY);
 
 }
 
