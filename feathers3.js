@@ -212,7 +212,7 @@ class Form {
 				vertex(other.bx, other.by);
 			endShape(CLOSE);
 
-			console.log(mxc, myc);
+			// console.log(mxc, myc);
 
 	}
 	
